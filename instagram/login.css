@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto&display=swap');
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  margin: 0;
+  background-color: #F8F9F9;
+
+  font-family: sans-serif;
+}
+
+main {
+  /* height: 60vh; */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  margin: 32px 0px 0px;
+  padding: 0px 0px 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+
+  margin: 12px 0px 0px;
+
+  width: 350px;
+  height: 565px;
+}
+
+.instagram-logo {
+  height: 110px;
+}
+
+.login-container {
+  background-color: white;
+
+  border: solid 1px rgba(0, 0, 0, .15);
+  margin: 0px 0px 10px;
+  padding: 10px 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 348px;
+  height: 358px;
+}
+
+.signup-container {
+  background-color: white;
+  
+  border: solid 1px rgba(0, 0, 0, .15);
+  margin: 0px 0px 10px;
+  padding: 10px 0px;
+
+  width: 348px;
+  height: 41px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+}
+
+.form-control {
+  background-color: #fafafa;
+
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+
+  margin: 0px 0 5px;
+
+  width: 268px;
+  height: 38px;
+}
+
+.controller {
+  width: 268px;
+  display: grid;
+  justify-items: start;
+  align-items: flex-start;
+}
+
+.controller > * {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.controller input {
+  background-color: transparent;
+  z-index: 1;
+
+  width:245px;
+  height: 35px;
+  border: none;
+}
+
+.controller input:focus {
+  border: none;
+}
+
+.placeholder {
+  /* background-color: green; */
+  
+  width:250px;
+  height: 38px;
+
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  align-items: center;
+}
+
+.login-btn {
+  color: #fafafa;
+  background-color: skyblue;
+  font-weight: bold;
+
+  width: 270px;
+  height: 28px;
+  margin-top: 10px;
+
+  border-radius: 4px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.login-btn:focus {
+  outline: none;
+}
+
+.login-container a {
+  margin: 12px 0px 0px;
+
+}
+
+.whiteline {
+  /* background-color: green; */
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  margin: 10px 40px 18px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.facebook {
+  background-color: transparent;
+  color: #3b5998;
+  font-weight: bold;
+  font-size: 14px;
+
+  width: 270px;
+  height: 30px;
+
+  border: none;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook:focus {
+  outline: none;
+}
+
+.facebook:active {
+  opacity: 0.8;
+}
+
+.forget-password a {
+  color:#3b5998;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.forget-password a:active {
+  opacity: 0.6;
+}
+
+.signup-container p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.signup-container a {
+  margin: 5px;
+
+  text-decoration: none;
+  
+  color: #3498DB;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.app-store {
+  background-image: url("images/app-store-badge.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 140px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.google-play {
+  background-image: url("images/google-play-badge.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 140px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.app-store:focus, 
+.google-play:focus {
+  outline: none;
+}
+
+.app-store:active,
+.google-play:active {
+  opacity: 0.5;
+}
+
+.facebook-logo {
+  background-image: url("images/facebook-logo.png");
+  width: 18px;
+
+  border-radius: 2px;
+
+  margin: 5px;
+}
+
+footer {
+  padding: 0px 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container {
+  margin: 0px 0px 52px;
+}
